@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Zone - Find Games Easier</title>
+    <link rel="icon" href="tab-icon.png" type="image/icon type">
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('topbestgames.jpg') no-repeat center center fixed;
+            background-size: cover; 
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(51, 51, 51, 0.8); 
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        .logo img {
+            height: 50px; 
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav ul li a:hover {
+            background: #444;
+            border-radius: 5px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: rgba(0, 0, 0, 0.5); 
+            flex: 1; 
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        .top-chart {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7); 
+        }
+
+        .top-chart h2 {
+            margin: 20px 0;
+        }
+
+        .chart-list {
+            display: inline-block; 
+            text-align: center;
+        }
+
+        .chart-item {
+            display: inline-block; 
+            margin: 10px;
+            text-align: center;
+        }
+
+        .chart-item img {
+            width: 190px; 
+            height: auto; 
+            border-radius: 5px;
+        }
+
+        .chart-item p {
+            margin-top: 1px;
+            font-size: 1.1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            width: 100%;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5em;
+            }
+
+            .hero p {
+                font-size: 1.2em;
+            }
+
+            .chart-item {
+                margin: 5px;
+            }
+
+            .chart-item img {
+                width: 120px; 
+            }
+
+            nav ul {
+                flex-direction: column; 
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0; 
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .hero p {
+                font-size: 1em;
+            }
+
+            .chart-item img {
+                width: 100px; 
+            }
+        }
+    
+        .button {
+            background-color: #000000; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="tab-icon.png" alt="Gamer Zone">
+        </div>
+        <nav>
+            <ul>
+                <li><a>HOME</a></li>
+                <li><a href="2nd-Page.html">TOP SELLING & FREE GAMES</a></li>
+                <li><a href="3rd-Page.html">REVIEWS & RATINGS</a></li>
+                <li><a href="4th-Page.html">GAME BLOGS</a></li>
+                <li><a href="5th-Page.html">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Gamer Zone!</h1>
+            <p>Find Your Next Favorite Game Here</p>
+        
+            <a href="2nd-Page.html" class="button">FIND YOUR GAMES NOW</a>
+        </section>
+
+        <section class="top-chart">
+            <h2>Top Selling & Free Games - As Of 2025</h2>
+            <div class="chart-list">
+                <div class="chart-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/6/69/Horizon_Forbidden_West_cover_art.jpg" alt="Horizon Forbidden West" style="width:150px;height:200px">
+                    <p>1. Horizon Forbidden West</p>
+                </div>
+                    <div class="chart-item">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d265d2182658189.65314fb438d17.png" alt="Starfield" style="width:150px;height:200px">
+                    <p>2. Starfield</p>
+                </div>
+                <div class="chart-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg/220px-The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg" alt="The Legend of Zelda" style="width:150px;height:200px">
+                    <p>3. The Legend of Zelda</p>
+                </div>
+                <div class="chart-item">
+                    <img src="https://i.redd.it/c5nkph1gajy91.jpg" alt="Final Fantasy XVI" style="width:150px;height:200px">
+                    <p>4. Final Fantasy XVI</p>
+                </div>
+                <div class="chart-item">
+                    <img src="https://preview.redd.it/assassins-creed-mirage-cover-art-assassins-creed-2007-style-v0-h5plbuhszwqa1.png?width=1587&format=png&auto=webp&s=4dcee7a226b30c97671928f35518dfd7c3ce5ae9" alt="Assassin's Creed Mirage" style="width:150px;height:200px">
+                    <p>5. Assassin's Creed Mirage</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gamer Zone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
